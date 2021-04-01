@@ -4,25 +4,31 @@
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .todo-list {
-   margin: 0;
-   padding: 0px;
- }
+  margin: 0;
+  padding: 0px;
+}
+
 .todo-item {
-    list-style: none;
-  }
+  list-style: none;
+}
+
 .task-field, .btn {
   outline: none;
 }
+
 .header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .header .header-img {
   width: 100%;
 }
+
 .header .header-link {
   font-family: fantasy, cursive;
 }
@@ -34,16 +40,19 @@
   }
 
 }
+
 .main-block {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
 .task-field {
   width: 56%;
   display: inline-block;
   flex-grow: 1
 }
+
 .task-row-wrapper {
   display: flex;
 }
@@ -58,9 +67,11 @@
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
+
 .btn:hover {
   color: #3a3a3a;
 }
+
 /* Heading */
 .todo-title,
 .task-label-new {
@@ -72,6 +83,7 @@
   margin: 0;
   text-transform: uppercase;
 }
+
 .task-field {
   margin: 0;
   font-size: 18px;
@@ -84,6 +96,7 @@
   font-family: Lato, sans-serif;
   color: #888;
 }
+
 .task-field:focus {
   color: #333;
 }
@@ -93,9 +106,11 @@
   display: block;
   margin: 0 0 20px;
 }
+
 .task-field-new {
   width: 318px;
 }
+
 .todo-block > .btn:hover {
   color: #0fc57c;
 }
@@ -110,6 +125,7 @@
   justify-content: space-between;
   align-items: center;
 }
+
 .todo-item > * {
   vertical-align: middle;
 }
@@ -117,23 +133,28 @@
 .todo-item > .checkbox {
   margin: 0 10px;
 }
+
 .todo-item > .task-label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 350px;
 }
+
 .todo-item > .task-field {
   width: 226px
 }
+
 .todo-item > .btn.delete-btn:hover {
   color: #cf2323;
 }
+
 .delete-btn .delete-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .delete-btn .delete-img:hover {
   transform: rotateZ(0);
 }
