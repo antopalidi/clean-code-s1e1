@@ -14,7 +14,8 @@
   list-style: none;
 }
 
-.task-field, .btn {
+.task-field,
+.btn {
   outline: none;
 }
 
