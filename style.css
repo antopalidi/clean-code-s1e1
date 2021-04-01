@@ -42,6 +42,13 @@
 
 }
 
+.title {
+  visibility: hidden;
+  position: absolute;
+  left: -9999px;
+  top: -9999px;
+}
+
 .main-block {
   display: block;
   width: 500px;
@@ -112,7 +119,7 @@
   width: 318px;
 }
 
-.todo-block > .btn:hover {
+.btn:hover {
   color: #0fc57c;
 }
 

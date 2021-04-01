@@ -6,21 +6,24 @@
   <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
 </head>
 <body class="page">
-  <div class="header">
-    <img class="header-img" src="./eisenhower-matrix.jpg">
-    <a class="header-link"
-       href="https://goal-life.com/page/method/matrix-eisenhower">
-       Want more details?;
-    </a>
-  </div>
-  <div class="main-block">
-    <p class="todo-block">
-      <label class="task-label-new" for="new-task">Add Item</label>
+<header class="header">
+  <h1 class="title"></h1>
+  <img class="header-img" src="./eisenhower-matrix.jpg">
+  <a class="header-link"
+     href="https://goal-life.com/page/method/matrix-eisenhower">
+    Want more details?;
+  </a>
+</header>
+<main class="main-block">
+  <section class="todo-block">
+    <h3 class="title">Add Item</h3>
+    <label class="task-label-new" for="new-task">Add Item</label>
     <div class="task-row-wrapper">
-    <input id="new-task" class="task-field-new task-field" type="text">
+      <input id="new-task" class="task-field-new task-field" type="text">
       <button class="btn">Add</button>
     </div>
-    </p>
+  </section>
+  <section class="todo-block">
     <h3 class="todo-title">Todo</h3>
     <ul class="todo-list" id="incomplete-tasks">
       <li class="todo-item">
@@ -42,6 +45,8 @@
         </button>
       </li>
     </ul>
+  </section>
+  <section class="todo-block">
     <h3 class="todo-title">Completed</h3>
     <ul class="todo-list todo-completed" id="completed-tasks">
       <li class="todo-item">
@@ -54,7 +59,8 @@
         </button>
       </li>
     </ul>
-  </div>
-  <script src="app.js"></script>
+  </section>
+</main>
+<script src="app.js"></script>
 </body>
 </html>
