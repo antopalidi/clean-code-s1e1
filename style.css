@@ -49,7 +49,7 @@
   top: -9999px;
 }
 
-.main-block {
+.todo {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -61,7 +61,7 @@
   flex-grow: 1;
 }
 
-.task-row-wrapper {
+.task-wrapper {
   display: flex;
 }
 
@@ -115,7 +115,7 @@
   margin: 0 0 20px;
 }
 
-.task-field-new {
+.task-field__new {
   width: 318px;
 }
 
